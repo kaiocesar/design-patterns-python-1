@@ -1,10 +1,13 @@
-def calcular_ISS(orcamento):
-    return orcamento.valor * 0.1
+class ISS(object):
+    def calcular(self, orcamento):
+        return orcamento.valor * 0.1
 
 
-def calcular_ICMS(orcamento):
-    return orcamento.valor * 0.06
+class ICMS(object):
+    def calcular(self, orcamento):
+        return orcamento.valor * 0.06
 
 
-def calcular_ISS_Munic(orcamento):
-    return orcamento.valor * 0.013
+class ISS_Munic(object):
+    def calcular(self, orcamento):
+        return orcamento.valor * 0.013
