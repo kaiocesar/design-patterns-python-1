@@ -11,3 +11,7 @@ class ICMS(object):
 class ISS_Munic(object):
     def calcular(self, orcamento):
         return orcamento.valor * 0.013
+
+
+class ISS_SBC(object):
+    pass
